@@ -1,0 +1,58 @@
+body {
+    /* Background Image */
+    background-image: url("../img/wp5207673.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    /* Margins and Padding */
+    margin: 0;
+    padding: 2%;
+  }
+  
+  header {
+    /* Flexbox Container */
+    display: flex;
+  }
+  
+  h1 {
+    /* Heading Styles */
+    font-size: 8em;
+    font-family: 'Sorts Mill Goudy', sans-serif;
+    
+    /* Centering Text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* Text Color and Background */
+    color: aliceblue;
+    background-color: rgba(0,0,0,.5);
+  }
+  
+  section > div {
+    /* Section Styles */
+    font-family: 'Faustina', sans-serif;
+    height: auto;
+    position: relative;
+    margin: auto;
+    left: 400px; /* Horizontal Positioning */
+    color: #0e0e0e;
+    top: 250px; /* Vertical Positioning */
+    font-size: larger;
+  }
+  
+  button {
+    /* Button Styles */
+    background-color: #0e0e0e;
+    position: relative;
+    border-radius: 30px;
+    top: 200px; /* Vertical Positioning */
+    padding: 20px 10px;
+  }
+  
+  button > a {
+    /* Link Styles */
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
